@@ -1,5 +1,6 @@
 <script>
   import LangSelector from "./components/LangSelector.svelte";
+  import LangTable from "./components/LangTable.svelte";
 
   let availableLanguages;
   let selectedLanguages = [];
@@ -9,6 +10,7 @@
     })
     .then((result) => {
       availableLanguages = result;
+      availableLanguages.sort();
     });
 
   function addLanguage({ detail }) {
@@ -22,11 +24,9 @@
     {selectedLanguages}
     on:submit={addLanguage}
   />
-  <ul>
-    {#each selectedLanguages as language, index}
-      <li>{index}: {language}</li>
-    {/each}
-  </ul>
+  {#if selectedLanguages.length > 0}
+    <LangTable {selectedLanguages} />
+  {/if}
 </main>
 
 <style>
