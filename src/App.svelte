@@ -5,8 +5,9 @@
   import DeleteAllLanguages from "./components/DeleteAllLanguages.svelte";
 
   let availableLanguages;
-  let selectedLanguages = [];
+  let selectedLanguages = getSelectedLanguages();
   let langCache = new Map();
+
   fetch("./languages.json")
     .then((response) => {
       return response.json();
@@ -16,8 +17,19 @@
       availableLanguages.sort();
     });
 
+  function getSelectedLanguages() {
+    try {
+      const langs = localStorage.getItem("selectedLanguages");
+
+      return JSON.parse(langs);
+    } catch (e) {
+      return [];
+    }
+  }
+
   function addLanguage({ detail }) {
     selectedLanguages = [...selectedLanguages, detail];
+    localStorage.setItem("selectedLanguages", JSON.stringify(selectedLanguages));
   }
 </script>
 
