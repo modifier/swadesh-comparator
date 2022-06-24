@@ -37,7 +37,6 @@
 <table>
   <thead>
     <tr>
-      <td>English</td>
       {#each selectedLanguages as language}
         <td>{language} <button on:click={() => remove(language)}>x</button></td>
       {/each}
@@ -46,7 +45,6 @@
   <tbody>
     {#each WORDS as word}
       <tr>
-        <td>{word}</td>
         {#each selectedLanguages as language}
           <td>{getWord(language, word)}</td>
         {/each}
