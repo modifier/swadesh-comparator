@@ -36,6 +36,9 @@
 <style>
   .comparator {
     padding: 1rem;
+    width: min-content;
+    min-width: 100%;
+    box-sizing: border-box;
   }
 
   .title {

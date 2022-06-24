@@ -42,8 +42,9 @@
     padding: 0.5rem 0;
     background: var(--bg-color);
     position: sticky;
-    top: 0;
+    left: 1rem;
     font-size: 0;
+    width: max-content;
   }
 
   .lang-input {

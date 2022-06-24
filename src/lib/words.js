@@ -1,8 +1,9 @@
 export const WORDS = [
   "I",
-  "you",
+  "thou",
   "he",
   "we",
+  "you",
   "they",
   "this",
   "that",

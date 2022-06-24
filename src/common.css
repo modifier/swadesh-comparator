@@ -12,6 +12,10 @@
   --button-border-color: #333;
   --input-border-color: #808080;
   --bg-color: #fafafa;
+  --odd-rows-color: #efefef;
+  --hover-row-color: #e6e6e6;
+  --remove-color: #d22626;
+  --border-width: 0.0625rem;
 }
 
 html,
