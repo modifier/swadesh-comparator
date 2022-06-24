@@ -13,10 +13,35 @@
     return shownLanguage[word] ? shownLanguage[word].join(", ") : "—";
   }
 
+  function getAllWords(shownLanguages) {
+    const allWords = new Set();
+    for (const swadesh of Object.values(shownLanguages)) {
+      for (const key of Object.keys(swadesh)) {
+        allWords.add(key);
+      }
+    }
+
+    const sortedWords = [];
+    for (const word of WORDS) {
+      if (allWords.has(word)) {
+        sortedWords.push(word);
+      }
+    }
+
+    for (const word of allWords.values()) {
+      if (!WORDS.includes(word)) {
+        sortedWords.push(word);
+      }
+    }
+
+    return sortedWords;
+  }
+
   function remove(languageToRemove) {
     selectedLanguages = selectedLanguages.filter(
       (language) => language !== languageToRemove
     );
+    delete shownLanguages[languageToRemove];
   }
 
   $: {
@@ -43,7 +68,7 @@
     </tr>
   </thead>
   <tbody>
-    {#each WORDS as word}
+    {#each getAllWords(shownLanguages) as word}
       <tr>
         {#each selectedLanguages as language}
           <td>{getWord(language, word)}</td>
