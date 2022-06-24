@@ -123,6 +123,12 @@
     max-width: 15rem;
   }
 
+  @media screen and (max-width: 40rem) {
+    td {
+      min-width: 5rem;
+    }
+  }
+
   td:first-child {
     border-left-width: var(--border-width);
   }

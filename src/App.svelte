@@ -41,6 +41,12 @@
     box-sizing: border-box;
   }
 
+  @media screen and (max-width: 40rem) {
+    .comparator {
+      padding: 0;
+    }
+  }
+
   .title {
     margin: 0 0 0.25rem;
   }

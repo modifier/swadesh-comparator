@@ -47,6 +47,12 @@
     width: max-content;
   }
 
+  @media screen and (max-width: 40rem) {
+    .lang-selector {
+      left: 0;
+    }
+  }
+
   .lang-input {
     font-size: 1rem;
     border: 2px var(--input-border-color) solid;
