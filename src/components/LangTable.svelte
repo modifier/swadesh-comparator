@@ -59,6 +59,10 @@
       (language) => language !== languageToRemove
     );
     delete shownLanguages[languageToRemove];
+    localStorage.setItem(
+      "selectedLanguages",
+      JSON.stringify(selectedLanguages)
+    );
   }
 
   $: {
