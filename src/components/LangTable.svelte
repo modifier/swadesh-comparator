@@ -2,8 +2,10 @@
   import { WORDS } from "../lib/words";
   import { slugifyLanguageName } from "../lib/nameFormatter";
   import CloseIcon from "./CloseIcon.svelte";
+  import { fetchWithCache } from "../lib/LangCache";
 
   export let selectedLanguages;
+  export let cache;
   let shownLanguages = {};
   let requestedLanguages = new Set();
 
@@ -50,13 +52,13 @@
     for (const lang of selectedLanguages) {
       if (!shownLanguages[lang] && !requestedLanguages.has(lang)) {
         const slugifyLang = slugifyLanguageName(lang);
-        fetch(`./langs/${slugifyLang}.json`)
-          .then((data) => data.json())
-          .then((langData) => {
+        fetchWithCache(`./langs/${slugifyLang}.json`, cache).then(
+          (langData) => {
             requestedLanguages.delete(lang);
             shownLanguages[lang] = langData;
             shownLanguages = shownLanguages;
-          });
+          }
+        );
       }
     }
   }

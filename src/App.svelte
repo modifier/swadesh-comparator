@@ -6,12 +6,13 @@
 
   let availableLanguages;
   let selectedLanguages = [];
+  let langCache = new Map();
   fetch("./languages.json")
-    .then((data) => {
-      return data.json();
+    .then((response) => {
+      return response.json();
     })
-    .then((result) => {
-      availableLanguages = result.map((name) => formattedLanguageName(name));
+    .then((data) => {
+      availableLanguages = data.map((name) => formattedLanguageName(name));
       availableLanguages.sort();
     });
 
@@ -32,7 +33,7 @@
       <DeleteAllLanguages bind:selectedLanguages />
     </div>
     {#if selectedLanguages.length > 0}
-      <LangTable bind:selectedLanguages />
+      <LangTable bind:selectedLanguages cache={langCache} />
     {/if}
   </section>
 </main>
