@@ -1,8 +1,9 @@
 <script>
   import { createEventDispatcher } from "svelte";
 
-  export let languages = [];
+  export let languages;
   export let selectedLanguages = [];
+  let sortedLanguages;
 
   let value;
   let isValid = false;
@@ -16,7 +17,21 @@
     }
   }
 
-  $: isValid = languages.includes(value) && !selectedLanguages.includes(value);
+  function getParents(language) {
+    const langItem = languages.get(language);
+
+    if (!langItem) {
+      return "";
+    }
+
+    return langItem.parents.join(" > ");
+  }
+
+  $: {
+    isValid = languages.has(value) && !selectedLanguages.includes(value);
+    sortedLanguages = Array.from(languages.values()).map((item) => item.name);
+    sortedLanguages.sort();
+  }
 </script>
 
 <form on:submit={submit} class="lang-selector">
@@ -27,11 +42,10 @@
     class="lang-input"
   />
   <datalist id="languages">
-    {#each languages as language}
-      <option
-        value={language}
-        disabled={selectedLanguages.includes(language)}
-      />
+    {#each sortedLanguages as language}
+      <option value={language} disabled={selectedLanguages.includes(language)}>
+        {getParents(language)}
+      </option>
     {/each}
   </datalist>
   <input type="submit" value="Add" disabled={!isValid} class="lang-add" />

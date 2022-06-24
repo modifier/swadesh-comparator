@@ -1,9 +1,9 @@
 <script>
   import { WORDS } from "../lib/words";
-  import { slugifyLanguageName } from "../lib/nameFormatter";
   import CloseIcon from "./CloseIcon.svelte";
-  import { fetchWithCache } from "../lib/LangCache";
+  import { fetchWithCache } from "../lib/fetchWithCache";
 
+  export let availableLanguages;
   export let selectedLanguages;
   export let cache;
   let shownLanguages = {};
@@ -41,6 +41,19 @@
     return sortedWords;
   }
 
+  function getParents(language) {
+    if (!availableLanguages) {
+      return "";
+    }
+    const langItem = availableLanguages.get(language);
+
+    if (!langItem) {
+      return "";
+    }
+
+    return langItem.parents.join(" > ");
+  }
+
   function remove(languageToRemove) {
     selectedLanguages = selectedLanguages.filter(
       (language) => language !== languageToRemove
@@ -51,14 +64,16 @@
   $: {
     for (const lang of selectedLanguages) {
       if (!shownLanguages[lang] && !requestedLanguages.has(lang)) {
-        const slugifyLang = slugifyLanguageName(lang);
-        fetchWithCache(`./langs/${slugifyLang}.json`, cache).then(
-          (langData) => {
-            requestedLanguages.delete(lang);
-            shownLanguages[lang] = langData;
-            shownLanguages = shownLanguages;
-          }
-        );
+        const slug = availableLanguages.get(lang)?.slug;
+        if (!slug) {
+          continue;
+        }
+
+        fetchWithCache(`./langs/${slug}.json`, cache).then((langData) => {
+          requestedLanguages.delete(lang);
+          shownLanguages[lang] = langData;
+          shownLanguages = shownLanguages;
+        });
       }
     }
   }
@@ -70,7 +85,9 @@
       {#each selectedLanguages as language}
         <td class="lang-title-data">
           <div class="lang-name-wrapper">
-            <span class="lang-name">{language}</span>
+            <span class="lang-name" title={getParents(language)}
+              >{language}</span
+            >
             <button class="remove-button" on:click={() => remove(language)}>
               <span class="remove-icon">
                 <CloseIcon />
@@ -184,6 +201,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .lang-name {
+    border-bottom: var(--border-width) var(--input-border-color) dashed;
   }
 
   .remove-button {

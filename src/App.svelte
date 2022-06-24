@@ -1,21 +1,16 @@
 <script>
   import LangSelector from "./components/LangSelector.svelte";
   import LangTable from "./components/LangTable.svelte";
-  import { formattedLanguageName } from "./lib/nameFormatter";
   import DeleteAllLanguages from "./components/DeleteAllLanguages.svelte";
+  import { getAvailableLanguages } from "./lib/processLanguages";
 
-  let availableLanguages;
+  let availableLanguages = new Map();
   let selectedLanguages = getSelectedLanguages();
   let langCache = new Map();
 
-  fetch("./languages.json")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      availableLanguages = data.map((name) => formattedLanguageName(name));
-      availableLanguages.sort();
-    });
+  getAvailableLanguages().then((langs) => {
+    availableLanguages = langs;
+  });
 
   function getSelectedLanguages() {
     try {
@@ -29,7 +24,10 @@
 
   function addLanguage({ detail }) {
     selectedLanguages = [...selectedLanguages, detail];
-    localStorage.setItem("selectedLanguages", JSON.stringify(selectedLanguages));
+    localStorage.setItem(
+      "selectedLanguages",
+      JSON.stringify(selectedLanguages)
+    );
   }
 </script>
 
@@ -45,7 +43,11 @@
       <DeleteAllLanguages bind:selectedLanguages />
     </div>
     {#if selectedLanguages.length > 0}
-      <LangTable bind:selectedLanguages cache={langCache} />
+      <LangTable
+        bind:selectedLanguages
+        {availableLanguages}
+        cache={langCache}
+      />
     {/if}
   </section>
 </main>
