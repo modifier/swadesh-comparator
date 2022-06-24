@@ -25,7 +25,7 @@
     on:submit={addLanguage}
   />
   {#if selectedLanguages.length > 0}
-    <LangTable {selectedLanguages} />
+    <LangTable bind:selectedLanguages />
   {/if}
 </main>
 
