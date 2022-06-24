@@ -1,8 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300;600&display=swap");
+
+@font-face {
+  font-family: "Rubik-fallback";
+  src: local(Arial);
+  ascent-override: 93.5%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+}
+
+:root {
+  --button-border-color: #333;
+  --input-border-color: #808080;
+  --bg-color: #fafafa;
+}
+
 html,
 body {
+  font-family: "Rubik", "Rubik-fallback", sans-serif;
   min-height: 100vh;
 }
 
 body {
+  background-color: var(--bg-color);
   margin: 0;
 }

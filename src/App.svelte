@@ -1,6 +1,7 @@
 <script>
   import LangSelector from "./components/LangSelector.svelte";
   import LangTable from "./components/LangTable.svelte";
+  import { formattedLanguageName } from "./lib/nameFormatter";
 
   let availableLanguages;
   let selectedLanguages = [];
@@ -9,7 +10,7 @@
       return data.json();
     })
     .then((result) => {
-      availableLanguages = result;
+      availableLanguages = result.map((name) => formattedLanguageName(name));
       availableLanguages.sort();
     });
 
@@ -18,20 +19,30 @@
   }
 </script>
 
-<main>
-  <LangSelector
-    languages={availableLanguages}
-    {selectedLanguages}
-    on:submit={addLanguage}
-  />
-  {#if selectedLanguages.length > 0}
-    <LangTable bind:selectedLanguages />
-  {/if}
+<main class="comparator">
+  <h1 class="title">Swadesh Comparator</h1>
+  <section class="table-content">
+    <LangSelector
+      languages={availableLanguages}
+      {selectedLanguages}
+      on:submit={addLanguage}
+    />
+    {#if selectedLanguages.length > 0}
+      <LangTable bind:selectedLanguages />
+    {/if}
+  </section>
 </main>
 
 <style>
-  :root {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  .comparator {
+    padding: 1rem;
+  }
+
+  .title {
+    margin: 0 0 0.25rem;
+  }
+
+  .table-content {
+    position: relative;
   }
 </style>

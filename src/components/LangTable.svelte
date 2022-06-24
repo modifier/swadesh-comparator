@@ -1,5 +1,6 @@
 <script>
   import { WORDS } from "../lib/words";
+  import { slugifyLanguageName } from "../lib/nameFormatter";
 
   export let selectedLanguages;
   let shownLanguages = {};
@@ -47,7 +48,8 @@
   $: {
     for (const lang of selectedLanguages) {
       if (!shownLanguages[lang] && !requestedLanguages.has(lang)) {
-        fetch(`./langs/${lang}.json`)
+        const slugifyLang = slugifyLanguageName(lang);
+        fetch(`./langs/${slugifyLang}.json`)
           .then((data) => data.json())
           .then((langData) => {
             requestedLanguages.delete(lang);

@@ -19,8 +19,13 @@
   $: isValid = languages.includes(value) && !selectedLanguages.includes(value);
 </script>
 
-<form on:submit={submit}>
-  <input bind:value placeholder="Language name" list="languages" />
+<form on:submit={submit} class="lang-selector">
+  <input
+    bind:value
+    placeholder="Language name"
+    list="languages"
+    class="lang-input"
+  />
   <datalist id="languages">
     {#each languages as language}
       <option
@@ -29,5 +34,37 @@
       />
     {/each}
   </datalist>
-  <input type="submit" value="Add language" disabled={!isValid} />
+  <input type="submit" value="Add" disabled={!isValid} class="lang-add" />
 </form>
+
+<style>
+  .lang-selector {
+    padding: 0.5rem 0;
+    background: var(--bg-color);
+    position: sticky;
+    top: 0;
+    font-size: 0;
+  }
+
+  .lang-input {
+    font-size: 1rem;
+    border: 2px var(--input-border-color) solid;
+    border-right: 0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+    outline: 0;
+  }
+
+  .lang-add {
+    border: 2px var(--button-border-color) solid;
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    margin: 0;
+    transition: 0.2s all;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+
+  .lang-add:disabled {
+    border-color: var(--input-border-color);
+  }
+</style>
