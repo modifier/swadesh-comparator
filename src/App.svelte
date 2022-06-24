@@ -2,6 +2,7 @@
   import LangSelector from "./components/LangSelector.svelte";
   import LangTable from "./components/LangTable.svelte";
   import { formattedLanguageName } from "./lib/nameFormatter";
+  import DeleteAllLanguages from "./components/DeleteAllLanguages.svelte";
 
   let availableLanguages;
   let selectedLanguages = [];
@@ -22,11 +23,14 @@
 <main class="comparator">
   <h1 class="title">Swadesh Comparator</h1>
   <section class="table-content">
-    <LangSelector
-      languages={availableLanguages}
-      {selectedLanguages}
-      on:submit={addLanguage}
-    />
+    <div class="toolbar">
+      <LangSelector
+        languages={availableLanguages}
+        {selectedLanguages}
+        on:submit={addLanguage}
+      />
+      <DeleteAllLanguages bind:selectedLanguages />
+    </div>
     {#if selectedLanguages.length > 0}
       <LangTable bind:selectedLanguages />
     {/if}
@@ -49,6 +53,21 @@
 
   .title {
     margin: 0 0 0.25rem;
+  }
+
+  .toolbar {
+    padding: 0.5rem 0;
+    position: sticky;
+    left: 1rem;
+    width: max-content;
+    display: flex;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 40rem) {
+    .toolbar {
+      left: 0;
+    }
   }
 
   .table-content {

@@ -15,7 +15,9 @@
   --odd-rows-color: #efefef;
   --hover-row-color: #e6e6e6;
   --remove-color: #d22626;
+  --remove-bg-color: rgba(210, 38, 38, 0.05);
   --border-width: 0.0625rem;
+  --input-border-width: 0.125rem;
 }
 
 html,

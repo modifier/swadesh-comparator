@@ -189,14 +189,13 @@
     cursor: pointer;
     background-color: transparent;
     font-size: 1.2rem;
-    font-weight: bold;
     border-radius: 0.3rem;
     box-sizing: border-box;
     color: var(--remove-color);
   }
 
   .remove-button:hover {
-    background-color: rgba(210, 38, 38, 0.05);
+    background-color: var(--remove-bg-color);
   }
 
   ul {

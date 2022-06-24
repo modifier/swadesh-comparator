@@ -39,18 +39,7 @@
 
 <style>
   .lang-selector {
-    padding: 0.5rem 0;
-    background: var(--bg-color);
-    position: sticky;
-    left: 1rem;
     font-size: 0;
-    width: max-content;
-  }
-
-  @media screen and (max-width: 40rem) {
-    .lang-selector {
-      left: 0;
-    }
   }
 
   .lang-input {
@@ -63,12 +52,17 @@
   }
 
   .lang-add {
-    border: 2px var(--button-border-color) solid;
+    border: var(--input-border-width) var(--button-border-color) solid;
     font-size: 1rem;
     padding: 0.25rem 1rem;
     margin: 0;
     transition: 0.2s all;
     border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer;
+  }
+
+  .lang-add:hover {
+    background-color: white;
   }
 
   .lang-add:disabled {
