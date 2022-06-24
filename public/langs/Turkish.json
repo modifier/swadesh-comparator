@@ -1,1 +1,651 @@
-{"all":["hepsi","tüm"],"and":["ve"],"animal":["hayvan kaba kişi"],"ashes":["yakılmış cesedin külleri"],"at":["-de, da"],"back":["sırt arka"],"bad":["kötü bozuk çürük"],"bark":["agac kabugu","ağaç kabuğu","kabuk"],"çünkü -dığı için":["because"],"belly":["göbek","karın"],"big":["buyuk","büyük"],"bird":["kus","kuş","kus kuş"],"bite":["ısırım","ısırmak"],"black":["kara"],"blood":["kan"],"blow":["esmek üflemek uçurmak"],"bone":["kemik"],"breast":["göğüs","meme"],"breathe":["solumak fısıldamak"],"burn":["yanmak yakmak yanık"],"child":["çocuk"],"cloud":["bulut karaltı gölge küme"],"cold":["soğuk"],"come":["gelmek ulaşmak"],"correct":["doğru yanlışsız"],"count":["saymak içermek"],"cut":["kesmek dilimlemek kesilmek"],"day":["gün"],"die":["ölmek"],"dig":["kazmak anlamak"],"dirty":["savruk pis kirli çirkin"],"dog":["kopek","köpek","köpek, it"],"drink":["içmek"],"dry":["kuru"],"dull":["sönük donuk boğuk"],"dust":["toz"],"ear":["kulak"],"earth":["yer dünya toprak doğa"],"eat":["yemek"],"egg":["yumurta"],"eye":["göz"],"fall":["düşmek azalmak inmek"],"far":["uzakta uzağa çok"],"father":["baba"],"fat (n.)":["yag","yağ"],"fear":["korkmak ürkmek çekinmek telaşlanmak"],"feather":["tüy"],"few":["az birkaç"],"fight":["savaşmak çarpışmak dövüşmek"],"fingernail":["tırnak"],"fire":["ates","ateş"],"fish":["balık"],"five":["bes","beş"],"float":["yüzmek yüzdürmek"],"flow":["akma akış akmak dolaşmak"],"flower":["çiçek"],"fly (v.)":["uçmak tüymek"],"fog":["sis"],"foot":["ayak"],"forest":["orman"],"four":["dört"],"freeze":["donmak dondurmak"],"fruit":["meyve sonuç ürün"],"give":["vermek tanımak eğilmek"],"good":["iyi, güzel"],"grass":["çimen ot çayır"],"green":["yeşil ham"],"guts":["bağırsaklar bağırsaklar azim iäşerik öz"],"hair":["saç","saç kıl"],"hand":["el","el işçi yardım"],"head":["baş","baş kafa","kafa"],"hear":["bilmek","duymak"],"heart":["kalp","kalp yürek gönül kararlılık","yürek"],"heavy":["ağır yoğun şiddetli"],"he":["on"],"here":["burada"],"hit":["vurmak çarpmak"],"hold":["tutmak almak yapmak"],"horn":["boynuz"],"how":["ne"],"hunt":["avlamak araştırmak"],"husband":["koca eş"],"I":["ben"],"ice":["buz kek dondurma"],"if":["eğer ise"],"in":["-de, da","-de,da"],"kill":["öldürmek av"],"knee":["diz"],"know":["bilmek"],"lake":["göl"],"laugh":["gülmek gülüş"],"leaf":["yaprak"],"left":["sol"],"leg":["but bacak bölüm"],"lie":["yatmak uzanmak durmak"],"liver":["ciğer","karaciğer"],"live":["yaşamak oturmak diri canlı"],"long":["uzun"],"louse":["bit"],"man":["adam","erkek"],"many":["bir çok","cogu","çoğu"],"meat":["et"],"mother":["anne"],"mountain":["dağ"],"mouth":["ağız"],"name":["isim"],"narrow":["dar sınırlı az"],"near":["yakın"],"neck":["boyun","boyun yaka dil kıstak","ense"],"new":["yeni"],"night":["aksam","akşam"],"nose":["burun"],"not":["deghil","degil","değil"],"old":["eski"],"one":["bir"],"other":["diğer öteki öbür"],"person":["kisi","kişi"],"play":["oyna"],"pull":["çek"],"push":["it"],"rain":["yağmur"],"red":["al kırmızı"],"right":["sağ"],"river":["ırmak"],"road":["yol"],"root":["kök"],"rope":["ip"],"rotten":["çürük"],"rub":["ovmak ovalamak sürtmek"],"salt":["tuz çeşni"],"sand":["kum"],"say":["demek söylemek okumak"],"scratch":["tırmalamak çizmek kaşımak eşelemek"],"sea":["deniz"],"seed":["tohum"],"see":["görmek"],"sew":["dikmek"],"sharp":["keskin sivri"],"short":["kısa parasız az kıt"],"sing":["söylemek ötmek şakımak vızıldamak çınlamak uğuldamak"],"sit":["oturmak oturtmak"],"skin":["deri"],"sky":["gök"],"sleep":["uyumak"],"small":["kucuk","küçük","ufak küçük"],"smell":["koklamak sezmek iz eser"],"smoke":["duman"],"smooth":["düz"],"snake":["yılan"],"snow":["kar kokain"],"some":["biraz birkaç kimi"],"spit":["şiş dil"],"split":["yarmak yarılmak sökülmek"],"squeeze":["sıkmak ezmek sığdırmak"],"stab":["bıçaklama deneme"],"stand":["dikelmek"],"star":["yıldız"],"stick":["sopa değnek baston saplamak"],"stone":["taş"],"straight":["düz dürüst"],"suck":["emmek"],"sun":["güneş"],"swell":["şişmek kabarmak"],"swim":["yüzmek dölmek"],"tail":["kuyruk"],"that":["su","şu"],"there":["orada"],"they":["onlar"],"thick":["kalın katı yoğun"],"thin":["ince zayıf cılız sulu cıvık"],"think":["düşünmek sanmak"],"this":["bu"],"thou":["sen"],"three":["üç"],"throw":["atmak fırlatmak"],"tie":["bağlamak bağlanmak"],"tongue":["dil"],"tooth":["diş"],"tree":["agac","ağaç"],"turn":["çevirmek döndürmek çevrilmek"],"two":["iki"],"vomit":["kusmak"],"walk":["yürümek gezdirmek gezinmek"],"warm":["ılık"],"wash":["yıkamak"],"water":["su"],"we":["biz"],"wet":["ıslak yaş"],"what":["ne"],"when":["ne zaman"],"where":["nere"],"white":["beyaz"],"who":["kim"],"wide":["geniş iyice tamamen"],"wife":["kari eş hanim"],"wind":["rüzgar yel nefes soluk"],"wing":["ek bina"],"wipe":["silmek"],"with":["ile nedeniyle sayesinde"],"woman":["kadin","kadın"],"worm":["kurt solucan korkak ödlek"],"year":["yıl sene"],"yellow":["sarı ödlek"],"you":["siz"]}
+{
+  "all": [
+    "hepsi",
+    "tüm"
+  ],
+  "and": [
+    "ve"
+  ],
+  "animal": [
+    "hayvan kaba kişi"
+  ],
+  "ashes": [
+    "yakılmış cesedin külleri"
+  ],
+  "at": [
+    "-de, da"
+  ],
+  "back": [
+    "sırt arka"
+  ],
+  "bad": [
+    "kötü bozuk çürük"
+  ],
+  "bark": [
+    "agac kabugu",
+    "ağaç kabuğu",
+    "kabuk"
+  ],
+  "because": [
+    "çünkü -dığı için"
+  ],
+  "belly": [
+    "göbek",
+    "karın"
+  ],
+  "big": [
+    "buyuk",
+    "büyük"
+  ],
+  "bird": [
+    "kus",
+    "kuş",
+    "kus kuş"
+  ],
+  "bite": [
+    "ısırım",
+    "ısırmak"
+  ],
+  "black": [
+    "kara"
+  ],
+  "blood": [
+    "kan"
+  ],
+  "blow": [
+    "esmek üflemek uçurmak"
+  ],
+  "bone": [
+    "kemik"
+  ],
+  "breast": [
+    "göğüs",
+    "meme"
+  ],
+  "breathe": [
+    "solumak fısıldamak"
+  ],
+  "burn": [
+    "yanmak yakmak yanık"
+  ],
+  "child": [
+    "çocuk"
+  ],
+  "cloud": [
+    "bulut karaltı gölge küme"
+  ],
+  "cold": [
+    "soğuk"
+  ],
+  "come": [
+    "gelmek ulaşmak"
+  ],
+  "correct": [
+    "doğru yanlışsız"
+  ],
+  "count": [
+    "saymak içermek"
+  ],
+  "cut": [
+    "kesmek dilimlemek kesilmek"
+  ],
+  "day": [
+    "gün"
+  ],
+  "die": [
+    "ölmek"
+  ],
+  "dig": [
+    "kazmak anlamak"
+  ],
+  "dirty": [
+    "savruk pis kirli çirkin"
+  ],
+  "dog": [
+    "kopek",
+    "köpek",
+    "köpek, it"
+  ],
+  "drink": [
+    "içmek"
+  ],
+  "dry": [
+    "kuru"
+  ],
+  "dull": [
+    "sönük donuk boğuk"
+  ],
+  "dust": [
+    "toz"
+  ],
+  "ear": [
+    "kulak"
+  ],
+  "earth": [
+    "yer dünya toprak doğa"
+  ],
+  "eat": [
+    "yemek"
+  ],
+  "egg": [
+    "yumurta"
+  ],
+  "eye": [
+    "göz"
+  ],
+  "fall": [
+    "düşmek azalmak inmek"
+  ],
+  "far": [
+    "uzakta uzağa çok"
+  ],
+  "father": [
+    "baba"
+  ],
+  "fat (n.)": [
+    "yag",
+    "yağ"
+  ],
+  "fear": [
+    "korkmak ürkmek çekinmek telaşlanmak"
+  ],
+  "feather": [
+    "tüy"
+  ],
+  "few": [
+    "az birkaç"
+  ],
+  "fight": [
+    "savaşmak çarpışmak dövüşmek"
+  ],
+  "fingernail": [
+    "tırnak"
+  ],
+  "fire": [
+    "ates",
+    "ateş"
+  ],
+  "fish": [
+    "balık"
+  ],
+  "five": [
+    "bes",
+    "beş"
+  ],
+  "float": [
+    "yüzmek yüzdürmek"
+  ],
+  "flow": [
+    "akma akış akmak dolaşmak"
+  ],
+  "flower": [
+    "çiçek"
+  ],
+  "fly (v.)": [
+    "uçmak tüymek"
+  ],
+  "fog": [
+    "sis"
+  ],
+  "foot": [
+    "ayak"
+  ],
+  "forest": [
+    "orman"
+  ],
+  "four": [
+    "dört"
+  ],
+  "freeze": [
+    "donmak dondurmak"
+  ],
+  "fruit": [
+    "meyve sonuç ürün"
+  ],
+  "give": [
+    "vermek tanımak eğilmek"
+  ],
+  "good": [
+    "iyi, güzel"
+  ],
+  "grass": [
+    "çimen ot çayır"
+  ],
+  "green": [
+    "yeşil ham"
+  ],
+  "guts": [
+    "bağırsaklar bağırsaklar azim iäşerik öz"
+  ],
+  "hair": [
+    "saç",
+    "saç kıl"
+  ],
+  "hand": [
+    "el",
+    "el işçi yardım"
+  ],
+  "head": [
+    "baş",
+    "baş kafa",
+    "kafa"
+  ],
+  "hear": [
+    "bilmek",
+    "duymak"
+  ],
+  "heart": [
+    "kalp",
+    "kalp yürek gönül kararlılık",
+    "yürek"
+  ],
+  "heavy": [
+    "ağır yoğun şiddetli"
+  ],
+  "he": [
+    "on"
+  ],
+  "here": [
+    "burada"
+  ],
+  "hit": [
+    "vurmak çarpmak"
+  ],
+  "hold": [
+    "tutmak almak yapmak"
+  ],
+  "horn": [
+    "boynuz"
+  ],
+  "how": [
+    "ne"
+  ],
+  "hunt": [
+    "avlamak araştırmak"
+  ],
+  "husband": [
+    "koca eş"
+  ],
+  "I": [
+    "ben"
+  ],
+  "ice": [
+    "buz kek dondurma"
+  ],
+  "if": [
+    "eğer ise"
+  ],
+  "in": [
+    "-de, da",
+    "-de,da"
+  ],
+  "kill": [
+    "öldürmek av"
+  ],
+  "knee": [
+    "diz"
+  ],
+  "know": [
+    "bilmek"
+  ],
+  "lake": [
+    "göl"
+  ],
+  "laugh": [
+    "gülmek gülüş"
+  ],
+  "leaf": [
+    "yaprak"
+  ],
+  "left": [
+    "sol"
+  ],
+  "leg": [
+    "but bacak bölüm"
+  ],
+  "lie": [
+    "yatmak uzanmak durmak"
+  ],
+  "liver": [
+    "ciğer",
+    "karaciğer"
+  ],
+  "live": [
+    "yaşamak oturmak diri canlı"
+  ],
+  "long": [
+    "uzun"
+  ],
+  "louse": [
+    "bit"
+  ],
+  "man": [
+    "adam",
+    "erkek"
+  ],
+  "many": [
+    "bir çok",
+    "cogu",
+    "çoğu"
+  ],
+  "meat": [
+    "et"
+  ],
+  "mother": [
+    "anne"
+  ],
+  "mountain": [
+    "dağ"
+  ],
+  "mouth": [
+    "ağız"
+  ],
+  "name": [
+    "isim"
+  ],
+  "narrow": [
+    "dar sınırlı az"
+  ],
+  "near": [
+    "yakın"
+  ],
+  "neck": [
+    "boyun",
+    "boyun yaka dil kıstak",
+    "ense"
+  ],
+  "new": [
+    "yeni"
+  ],
+  "night": [
+    "aksam",
+    "akşam"
+  ],
+  "nose": [
+    "burun"
+  ],
+  "not": [
+    "deghil",
+    "degil",
+    "değil"
+  ],
+  "old": [
+    "eski"
+  ],
+  "one": [
+    "bir"
+  ],
+  "other": [
+    "diğer öteki öbür"
+  ],
+  "person": [
+    "kisi",
+    "kişi"
+  ],
+  "play": [
+    "oyna"
+  ],
+  "pull": [
+    "çek"
+  ],
+  "push": [
+    "it"
+  ],
+  "rain": [
+    "yağmur"
+  ],
+  "red": [
+    "al kırmızı"
+  ],
+  "right": [
+    "sağ"
+  ],
+  "river": [
+    "ırmak"
+  ],
+  "road": [
+    "yol"
+  ],
+  "root": [
+    "kök"
+  ],
+  "rope": [
+    "ip"
+  ],
+  "rotten": [
+    "çürük"
+  ],
+  "rub": [
+    "ovmak ovalamak sürtmek"
+  ],
+  "salt": [
+    "tuz çeşni"
+  ],
+  "sand": [
+    "kum"
+  ],
+  "say": [
+    "demek söylemek okumak"
+  ],
+  "scratch": [
+    "tırmalamak çizmek kaşımak eşelemek"
+  ],
+  "sea": [
+    "deniz"
+  ],
+  "seed": [
+    "tohum"
+  ],
+  "see": [
+    "görmek"
+  ],
+  "sew": [
+    "dikmek"
+  ],
+  "sharp": [
+    "keskin sivri"
+  ],
+  "short": [
+    "kısa parasız az kıt"
+  ],
+  "sing": [
+    "söylemek ötmek şakımak vızıldamak çınlamak uğuldamak"
+  ],
+  "sit": [
+    "oturmak oturtmak"
+  ],
+  "skin": [
+    "deri"
+  ],
+  "sky": [
+    "gök"
+  ],
+  "sleep": [
+    "uyumak"
+  ],
+  "small": [
+    "kucuk",
+    "küçük",
+    "ufak küçük"
+  ],
+  "smell": [
+    "koklamak sezmek iz eser"
+  ],
+  "smoke": [
+    "duman"
+  ],
+  "smooth": [
+    "düz"
+  ],
+  "snake": [
+    "yılan"
+  ],
+  "snow": [
+    "kar kokain"
+  ],
+  "some": [
+    "biraz birkaç kimi"
+  ],
+  "spit": [
+    "şiş dil"
+  ],
+  "split": [
+    "yarmak yarılmak sökülmek"
+  ],
+  "squeeze": [
+    "sıkmak ezmek sığdırmak"
+  ],
+  "stab": [
+    "bıçaklama deneme"
+  ],
+  "stand": [
+    "dikelmek"
+  ],
+  "star": [
+    "yıldız"
+  ],
+  "stick": [
+    "sopa değnek baston saplamak"
+  ],
+  "stone": [
+    "taş"
+  ],
+  "straight": [
+    "düz dürüst"
+  ],
+  "suck": [
+    "emmek"
+  ],
+  "sun": [
+    "güneş"
+  ],
+  "swell": [
+    "şişmek kabarmak"
+  ],
+  "swim": [
+    "yüzmek dölmek"
+  ],
+  "tail": [
+    "kuyruk"
+  ],
+  "that": [
+    "su",
+    "şu"
+  ],
+  "there": [
+    "orada"
+  ],
+  "they": [
+    "onlar"
+  ],
+  "thick": [
+    "kalın katı yoğun"
+  ],
+  "thin": [
+    "ince zayıf cılız sulu cıvık"
+  ],
+  "think": [
+    "düşünmek sanmak"
+  ],
+  "this": [
+    "bu"
+  ],
+  "thou": [
+    "sen"
+  ],
+  "three": [
+    "üç"
+  ],
+  "throw": [
+    "atmak fırlatmak"
+  ],
+  "tie": [
+    "bağlamak bağlanmak"
+  ],
+  "tongue": [
+    "dil"
+  ],
+  "tooth": [
+    "diş"
+  ],
+  "tree": [
+    "agac",
+    "ağaç"
+  ],
+  "turn": [
+    "çevirmek döndürmek çevrilmek"
+  ],
+  "two": [
+    "iki"
+  ],
+  "vomit": [
+    "kusmak"
+  ],
+  "walk": [
+    "yürümek gezdirmek gezinmek"
+  ],
+  "warm": [
+    "ılık"
+  ],
+  "wash": [
+    "yıkamak"
+  ],
+  "water": [
+    "su"
+  ],
+  "we": [
+    "biz"
+  ],
+  "wet": [
+    "ıslak yaş"
+  ],
+  "what": [
+    "ne"
+  ],
+  "when": [
+    "ne zaman"
+  ],
+  "where": [
+    "nere"
+  ],
+  "white": [
+    "beyaz"
+  ],
+  "who": [
+    "kim"
+  ],
+  "wide": [
+    "geniş iyice tamamen"
+  ],
+  "wife": [
+    "kari eş hanim"
+  ],
+  "wind": [
+    "rüzgar yel nefes soluk"
+  ],
+  "wing": [
+    "ek bina"
+  ],
+  "wipe": [
+    "silmek"
+  ],
+  "with": [
+    "ile nedeniyle sayesinde"
+  ],
+  "woman": [
+    "kadin",
+    "kadın"
+  ],
+  "worm": [
+    "kurt solucan korkak ödlek"
+  ],
+  "year": [
+    "yıl sene"
+  ],
+  "yellow": [
+    "sarı ödlek"
+  ],
+  "you": [
+    "siz"
+  ]
+}
