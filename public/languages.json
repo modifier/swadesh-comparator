@@ -1,23 +1,165 @@
 {
   "Indo-European": {
-    "_self": ["ProtoIndoEuropean"]
+    "_self": [
+      "ProtoIndoEuropean",
+      "AlbanianTosk"
+    ],
+    "Balto-Slavic": {
+      "_self": [
+        "ProtoBaltoSlavic"
+      ],
+      "Baltic": {
+        "_self": [
+          "Lithuanian",
+          "Latvian",
+          "OldPrussian"
+        ]
+      },
+      "Slavic": {
+        "_self": [
+          "ProtoSlavic"
+        ],
+        "East": {
+          "_self": [
+            "Russian"
+          ]
+        },
+        "West": {
+          "_self": [
+            "Polish",
+            "Czech",
+            "Slovak"
+          ]
+        },
+        "South": {
+          "_self": [
+            "SerboCroatian",
+            "Bulgarian"
+          ]
+        }
+      }
+    },
+    "Celtic": {
+      "Goidelic": {
+        "_self": [
+          "GaelicIrish",
+          "GaelicScottish"
+        ]
+      }
+    },
+    "Germanic": {
+      "West": {
+        "_self": [
+          "English",
+          "Dutch",
+          "Afrikaans",
+          "German",
+          "GermanPennsylvania"
+        ]
+      },
+      "North": {
+        "_self": [
+          "NorwegianBokmal",
+          "NorwegianNynorsk",
+          "Swedish",
+          "Danish",
+          "Icelandic"
+        ]
+      }
+    },
+    "Hellenic": {
+      "_self": [
+        "Greek"
+      ]
+    },
+    "Iranian": {
+      "_self": [
+        "Kurdish"
+      ]
+    },
+    "Italic": {
+      "_self": [
+        "Latin"
+      ],
+      "Gallo-Romance": {
+        "_self": [
+          "French"
+        ]
+      },
+      "Occitano-Romance": {
+        "_self": [
+          "Catalan"
+        ]
+      },
+      "Iberian": {
+        "_self": [
+          "Spanish",
+          "Portuguese",
+          "Galician",
+          "Italian",
+          "Sicilian"
+        ]
+      },
+      "Eastern Romance": {
+        "_self": [
+          "Romanian"
+        ]
+      }
+    }
+  },
+  "Vasconic": {
+    "_self": [
+      "Basque"
+    ]
+  },
+  "Caucasian": {
+    "_self": [],
+    "Abazgi": {
+      "_self": [
+        "Abaza",
+        "Abkhaz"
+      ]
+    },
+    "Circassian": {
+      "_self": [
+        "Adyghe"
+      ]
+    },
+    "Nakh": {
+      "_self": [
+        "Chechen"
+      ]
+    }
+  },
+  "Uralic": {
+    "Finno-Ugric": {
+      "Ugric": {
+        "_self": [
+          "Hungarian"
+        ]
+      },
+      "Balto-Finnic": {
+        "_self": [
+          "Finnish"
+        ]
+      },
+      "Mordvinic": {
+        "_self": [
+          "Moksha"
+        ]
+      }
+    }
   },
   "_self": [
     "APucikwar",
-    "Abaza",
-    "Abkhaz",
     "AbnakiWestern",
     "Uzbek",
     "Turkmen",
-    "ProtoBaltoSlavic",
-    "Lithuanian",
     "Azerbaijani",
     "Abui",
     "Abun",
     "Achinese",
-    "Adyghe",
     "Afar",
-    "Afrikaans",
     "Aghu",
     "Agob",
     "Ainu",
@@ -35,7 +177,6 @@
     "Alagwa",
     "Alamblak",
     "Alawa",
-    "AlbanianTosk",
     "Alekano",
     "Alyawarr",
     "Ama",
@@ -79,7 +220,6 @@
     "Bamanankan",
     "Bandjalang",
     "Bargam",
-    "Basque",
     "BatakToba",
     "Bats",
     "Bau",
@@ -110,7 +250,6 @@
     "BuangMapos",
     "Bugis",
     "Bukiyip",
-    "Bulgarian",
     "Buna",
     "Bunak",
     "Bungain",
@@ -123,15 +262,12 @@
     "Buruwai",
     "Cakchiquel",
     "Carib",
-    "Catalan",
     "Cebuano",
     "Chamalal",
-    "Chechen",
     "Cheyenne",
     "Chorti",
     "Citak",
     "CreePlains",
-    "Czech",
     "Daasanach",
     "Dadibi",
     "Daga",
@@ -143,7 +279,6 @@
     "DaniLowerGrandValley",
     "DaniMidGrandValley",
     "DaniWestern",
-    "Danish",
     "Dano",
     "Dargwa",
     "Darling",
@@ -168,7 +303,6 @@
     "Duduela",
     "Dumpu",
     "Duna",
-    "Dutch",
     "Duvle",
     "Dyaabugay",
     "Dyirbal",
@@ -177,7 +311,6 @@
     "Ekari",
     "Elseng",
     "Enga",
-    "English",
     "Erave",
     "Eritai",
     "Esperanto",
@@ -189,20 +322,15 @@
     "Fembe",
     "Fijian",
     "FijianWestern",
-    "Finnish",
     "Foi",
     "Folopa",
     "Fore",
-    "French",
     "Fur",
     "Fuyug",
-    "GaelicIrish",
-    "GaelicScottish",
     "Gagadu",
     "Gagauz",
     "Gal",
     "Galela",
-    "Galician",
     "Ganglau",
     "Gangulu",
     "Garawa",
@@ -211,8 +339,6 @@
     "Gbaya",
     "GbayaBossangoa",
     "Gende",
-    "German",
-    "GermanPennsylvania",
     "Gimi",
     "Girawa",
     "Gizrra",
@@ -220,7 +346,6 @@
     "Gogodala",
     "Gooniyandi",
     "Gorontalo",
-    "Greek",
     "Guguyimidjir",
     "Gule",
     "Gumalu",
@@ -240,10 +365,8 @@
     "Heiban",
     "Huli",
     "Humene",
-    "Hungarian",
     "Hunzib",
     "Iatmul",
-    "Icelandic",
     "Iha",
     "Imonda",
     "Ipiko",
@@ -252,7 +375,6 @@
     "Isabi",
     "Isirawa",
     "Isnag",
-    "Italian",
     "Itik",
     "Iwaidja",
     "Jarawa",
@@ -351,14 +473,6 @@
     "Lafofa",
     "Lak",
     "Laragia",
-    "Latin",
-    "Latvian",
-    "OldPrussian",
-    "ProtoSlavic",
-    "SerboCroatian",
-    "NorwegianBokmal",
-    "NorwegianNynorsk",
-    "Kurdish",
     "Catalan",
     "Lau",
     "Lehar",
@@ -419,7 +533,6 @@
     "Modole",
     "Moere",
     "Moi",
-    "Moksha",
     "Molbog",
     "Molo",
     "Mombum",
@@ -504,8 +617,6 @@
     "Paynamar",
     "PeleAta",
     "Pohnpeian",
-    "Polish",
-    "Portuguese",
     "Pulaar",
     "Pulabu",
     "Puragi",
@@ -522,14 +633,12 @@
     "Rerau",
     "Riantana",
     "Ritarungo",
-    "Romanian",
     "Rotokas",
     "Rotuman",
     "Roviana",
     "Rukai",
     "Rumu",
     "Runga",
-    "Russian",
     "SaafiSaafi",
     "Saep",
     "Sahu",
@@ -557,7 +666,6 @@
     "Shwai",
     "Siane",
     "Sibe",
-    "Sicilian",
     "Sidamo",
     "Sihan",
     "Sika",
@@ -569,17 +677,14 @@
     "Siroi",
     "Siwai",
     "Siwi",
-    "Slovak",
     "SonghayKoyraboroSenni",
     "Sop",
     "Sowanda",
-    "Spanish",
     "Sranan",
     "Suabo",
     "Sulka",
     "Sumau",
     "Sundanese",
-    "Swedish",
     "Tabaru",
     "Tabla",
     "Tabo",
