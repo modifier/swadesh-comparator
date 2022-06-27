@@ -31,8 +31,8 @@
   }
 </script>
 
+<h1 class="title">Swadesh Comparator</h1>
 <main class="comparator">
-  <h1 class="title">Swadesh Comparator</h1>
   <section class="table-content">
     <div class="toolbar">
       <LangSelector
@@ -51,13 +51,23 @@
     {/if}
   </section>
 </main>
+<footer class="footer">
+  <div class="footer-left">
+    <p>Made in Russia in 2022.</p>
+  </div>
+  <div class="footer-right">
+    <p>The sources: <a href="https://datarepository.wolframcloud.com/resources/Swadesh-Lists">Wolfram Cloud</a> and <a href="https://en.wiktionary.org/wiki/Appendix:Swadesh_lists">Wiktionary</a>.</p>
+    <p>Submit incorrect data as a PR on <a href="https://github.com/modifier/swadesh-comparator">GitHub</a>.</p>
+  </div>
+</footer>
 
 <style>
   .comparator {
-    padding: 1rem;
+    padding: 0 1rem;
     width: min-content;
     min-width: 100%;
     box-sizing: border-box;
+    flex: 1 0 auto;
   }
 
   @media screen and (max-width: 40rem) {
@@ -67,7 +77,7 @@
   }
 
   .title {
-    margin: 0 0 0.25rem;
+    margin: 1rem 1rem 0.25rem;
   }
 
   .toolbar {
@@ -87,5 +97,21 @@
 
   .table-content {
     position: relative;
+  }
+
+  .footer {
+    flex: 0 0 auto;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    align-items: flex-end;
+  }
+
+  .footer p {
+    margin: 0.25rem 0;
   }
 </style>

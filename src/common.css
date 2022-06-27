@@ -23,10 +23,24 @@
 html,
 body {
   font-family: "Rubik", "Rubik-fallback", sans-serif;
-  min-height: 100vh;
+  height: 100%;
 }
 
 body {
   background-color: var(--bg-color);
   margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+a, a:visited {
+  color: #0060a0;
+}
+
+a:hover {
+  color: #398dc5;
 }

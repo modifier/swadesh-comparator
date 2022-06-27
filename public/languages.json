@@ -150,12 +150,50 @@
       }
     }
   },
+  "Turkic": {
+    "Oghuz": {
+      "_self": [
+        "Azerbaijani",
+        "Turkmen",
+        "Turkish",
+        "Gagauz"
+      ]
+    },
+    "Kipchak": {
+      "_self": [
+        "Tatar"
+      ]
+    },
+    "Karluk": {
+      "_self": [
+        "Uzbek"
+      ]
+    }
+  },
+  "Kra–Dai": {
+    "_self": [
+      "Thai"
+    ]
+  },
+  "Afroasiatic": {
+    "Semitic": {
+      "_self": [
+        "ArabicStandard"
+      ]
+    }
+  },
+  "Constructed": {
+    "_self": [
+      "Esperanto"
+    ]
+  },
+  "Great Andamanese": {
+    "_self": [
+      "APucikwar"
+    ]
+  },
   "_self": [
-    "APucikwar",
     "AbnakiWestern",
-    "Uzbek",
-    "Turkmen",
-    "Azerbaijani",
     "Abui",
     "Abun",
     "Achinese",
@@ -191,7 +229,6 @@
     "Anindilyakwa",
     "Anjam",
     "Apali",
-    "ArabicStandard",
     "Arandai",
     "Arawak",
     "Arawum",
@@ -313,7 +350,6 @@
     "Enga",
     "Erave",
     "Eritai",
-    "Esperanto",
     "Faita",
     "Fas",
     "Fasu",
@@ -328,7 +364,6 @@
     "Fur",
     "Fuyug",
     "Gagadu",
-    "Gagauz",
     "Gal",
     "Galela",
     "Ganglau",
@@ -701,7 +736,6 @@
     "TamahaqTahaggart",
     "TannaNorth",
     "Tarifit",
-    "Tatar",
     "Tauade",
     "Taulil",
     "Tause",
@@ -710,7 +744,6 @@
     "Tehit",
     "Telefol",
     "Terei",
-    "Thai",
     "Themne",
     "Tidore",
     "Timbe",
@@ -731,7 +764,6 @@
     "Tumtum",
     "Tumzabt",
     "Tunggare",
-    "Turkish",
     "Tuwari",
     "Uare",
     "Uduk",
