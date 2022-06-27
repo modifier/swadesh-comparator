@@ -86,7 +86,10 @@
     left: 1rem;
     width: max-content;
     display: flex;
-    gap: 1rem;
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
+    max-width: 100vw;
   }
 
   @media screen and (max-width: 40rem) {
@@ -109,6 +112,7 @@
     max-width: 1000px;
     box-sizing: border-box;
     align-items: flex-end;
+    flex-wrap: wrap;
   }
 
   .footer p {
