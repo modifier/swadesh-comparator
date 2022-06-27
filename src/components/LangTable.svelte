@@ -87,7 +87,7 @@
   <thead class="lang-titles">
     <tr>
       {#each selectedLanguages as language}
-        <td class="lang-title-data">
+        <th class="lang-title-data">
           <div class="lang-name-wrapper">
             <span class="lang-name" title={getParents(language)}
               >{language}</span
@@ -98,7 +98,7 @@
               </span>
             </button>
           </div>
-        </td>
+        </th>
       {/each}
     </tr>
   </thead>
@@ -138,12 +138,22 @@
     border-spacing: 0;
   }
 
+  th {
+    font-weight: 600;
+    border: 0 #000 solid;
+    border-right-width: var(--border-width);
+    border-bottom-width: var(--border-width);
+    min-width: 10rem;
+    max-width: 15rem;
+  }
+
   td {
     border: 0 #000 solid;
     border-right-width: var(--border-width);
     border-bottom-width: var(--border-width);
     min-width: 10rem;
     max-width: 15rem;
+    font-weight: 400;
   }
 
   @media screen and (max-width: 40rem) {
@@ -152,11 +162,12 @@
     }
   }
 
-  td:first-child {
+  td:first-child,
+  th:first-child {
     border-left-width: var(--border-width);
   }
 
-  thead tr:first-child td {
+  th {
     border-top-width: var(--border-width);
   }
 
