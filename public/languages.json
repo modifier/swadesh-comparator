@@ -131,6 +131,11 @@
       }
     }
   },
+  "Mongolic": {
+    "_self": [
+      "Mongolian"
+    ]
+  },
   "Vasconic": {
     "_self": [
       "Basque"
@@ -184,15 +189,51 @@
       ]
     },
     "Kipchak": {
-      "_self": [
-        "Tatar"
-      ]
+      "Kipchak–Bulgar": {
+        "_self": [
+          "Tatar",
+          "Bashkir"
+        ]
+      },
+      "Kyrgyz–Kipchak": {
+        "_self": [
+          "Kyrgyz"
+        ]
+      },
+      "Kipchak–Cuman": {
+        "_self": [
+          "CrimeanTatar"
+        ]
+      },
+      "Kipchak-Nogai": {
+        "_self": [
+          "SiberianTatar",
+          "Karakalpak",
+          "Kazakh"
+        ]
+      }
     },
     "Karluk": {
       "_self": [
         "Uzbek"
       ]
     }
+  },
+  "Tungusic": {
+    "_self": [
+      "Manchu"
+    ]
+  },
+  "Koreanic": {
+    "_self": [
+      "Korean"
+    ]
+  },
+  "Japonic-Ryukyuan": {
+    "_self": [
+      "Japanese",
+      "Okinawan"
+    ]
   },
   "Kra–Dai": {
     "_self": [
@@ -202,9 +243,24 @@
   "Afroasiatic": {
     "Semitic": {
       "_self": [
-        "ArabicStandard"
+        "ArabicStandard",
+        "Maltese",
+        "Hebrew",
+        "Amharic"
       ]
     }
+  },
+  "Bantu": {
+    "_self": [
+      "Swahili",
+      "Zulu"
+    ]
+  },
+  "Austroasiatic": {
+    "_self": [
+      "Khmer",
+      "Vietnamese"
+    ]
   },
   "Constructed": {
     "_self": [
