@@ -16,7 +16,7 @@
     try {
       const langs = localStorage.getItem("selectedLanguages");
 
-      return JSON.parse(langs);
+      return JSON.parse(langs) || [];
     } catch (e) {
       return [];
     }
