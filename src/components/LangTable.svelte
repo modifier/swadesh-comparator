@@ -14,7 +14,7 @@
     if (!shownLanguage) {
       return [];
     }
-    return shownLanguage[word] ? shownLanguage[word] : ["—"];
+    return shownLanguage[word]?.[0] ? shownLanguage[word][0] : ["—"];
   }
 
   function getAllWords(shownLanguages) {
