@@ -14,7 +14,7 @@
     if (!shownLanguage) {
       return [];
     }
-    return shownLanguage[word]?.[0] ? shownLanguage[word][0] : ["—"];
+    return shownLanguage[word] ? shownLanguage[word] : [["—"]];
   }
 
   function getAllWords(shownLanguages) {
@@ -112,7 +112,12 @@
           >
             <ul>
               {#each getWordOptions(language, word) as wordOption}
-                <li>{wordOption}</li>
+                <li>
+                  {wordOption[0]}
+                  {#if wordOption[1]}
+                    <span class="translit">{wordOption[1]}</span>
+                  {/if}
+                </li>
               {/each}
             </ul>
           </td>
@@ -243,5 +248,18 @@
 
   li {
     list-style: none;
+  }
+
+  .translit {
+    font-style: italic;
+    color: #35566a;
+  }
+
+  .translit::before {
+    content: "(";
+  }
+
+  .translit::after {
+    content: ")";
   }
 </style>

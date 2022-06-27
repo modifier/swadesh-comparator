@@ -21,7 +21,10 @@
         ],
         "East": {
           "_self": [
-            "Russian"
+            "Russian",
+            "Ukrainian",
+            "Belarusian",
+            "Rusyn"
           ]
         },
         "West": {
@@ -34,7 +37,9 @@
         "South": {
           "_self": [
             "SerboCroatian",
-            "Bulgarian"
+            "Bulgarian",
+            "Macedonian",
+            "OldChurchSlavonic"
           ]
         }
       }
