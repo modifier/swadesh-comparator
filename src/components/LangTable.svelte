@@ -117,6 +117,9 @@
                   {#if wordOption[1]}
                     <span class="translit">{wordOption[1]}</span>
                   {/if}
+                  {#if wordOption[2]}
+                    <span class="ipa">{wordOption[2]}</span>
+                  {/if}
                 </li>
               {/each}
             </ul>
@@ -253,6 +256,7 @@
   .translit {
     font-style: italic;
     color: #35566a;
+    margin-left: 0.5rem;
   }
 
   .translit::before {
@@ -261,5 +265,18 @@
 
   .translit::after {
     content: ")";
+  }
+
+  .ipa {
+    color: #6c1111;
+    margin-left: 0.5rem;
+  }
+
+  .ipa::before {
+    content: "[";
+  }
+
+  .ipa::after {
+    content: "]";
   }
 </style>

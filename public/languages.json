@@ -70,16 +70,35 @@
           "Danish",
           "Icelandic"
         ]
+      },
+      "East": {
+        "_self": [
+          "Gothic"
+        ]
       }
     },
     "Hellenic": {
       "_self": [
-        "Greek"
+        "Greek",
+        "AncientGreek"
       ]
     },
     "Iranian": {
       "_self": [
-        "Kurdish"
+        "Kurdish",
+        "Persian",
+        "OssetianDigor",
+        "OssetianIron",
+        "Tajik"
+      ]
+    },
+    "Indo-Aryan": {
+      "_self": [
+        "Bengali",
+        "Hindi",
+        "Punjabi",
+        "Romani",
+        "Sanskrit"
       ]
     },
     "Italic": {
