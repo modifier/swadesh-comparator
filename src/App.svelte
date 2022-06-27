@@ -101,7 +101,7 @@
 
   .footer {
     flex: 0 0 auto;
-    margin: 0 auto;
+    margin: 2rem auto 0;
     padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
