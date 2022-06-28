@@ -1,5 +1,5 @@
-export function getAvailableLanguages() {
-  return fetch("./languages.json")
+export function getAvailableLanguages(baseUrl) {
+  return fetch(`${baseUrl}/languages.json`)
     .then((response) => {
       return response.json();
     })

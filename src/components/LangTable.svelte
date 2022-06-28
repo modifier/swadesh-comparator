@@ -6,6 +6,7 @@
   export let availableLanguages;
   export let selectedLanguages;
   export let cache;
+  export let baseUrl;
   let shownLanguages = {};
   let requestedLanguages = new Set();
 
@@ -73,7 +74,7 @@
           continue;
         }
 
-        fetchWithCache(`./langs/${slug}.json`, cache).then((langData) => {
+        fetchWithCache(`${baseUrl}/langs/${slug}.json`, cache).then((langData) => {
           requestedLanguages.delete(lang);
           shownLanguages[lang] = langData;
           shownLanguages = shownLanguages;

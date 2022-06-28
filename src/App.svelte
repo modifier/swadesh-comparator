@@ -7,8 +7,9 @@
   let availableLanguages = new Map();
   let selectedLanguages = getSelectedLanguages();
   let langCache = new Map();
+  export let baseUrl;
 
-  getAvailableLanguages().then((langs) => {
+  getAvailableLanguages(baseUrl).then((langs) => {
     availableLanguages = langs;
   });
 
@@ -45,6 +46,7 @@
     {#if selectedLanguages.length > 0}
       <LangTable
         bind:selectedLanguages
+        {baseUrl}
         {availableLanguages}
         cache={langCache}
       />
