@@ -72,6 +72,14 @@
     flex: 1 0 auto;
   }
 
+  a, a:visited {
+    color: #0060a0;
+  }
+
+  a:hover {
+    color: #398dc5;
+  }
+
   @media screen and (max-width: 40rem) {
     .comparator {
       padding: 0;

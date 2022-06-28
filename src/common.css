@@ -22,9 +22,7 @@
 
 html,
 body {
-  font-family: "Rubik", "Rubik-fallback", sans-serif;
   height: 100%;
-  font-weight: 300;
 }
 
 body {
@@ -33,9 +31,11 @@ body {
 }
 
 #app {
+  font-family: "Rubik", "Rubik-fallback", sans-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-weight: 300;
 }
 
 a, a:visited {
