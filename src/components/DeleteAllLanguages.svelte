@@ -17,6 +17,9 @@
   }
 
   $: canRestore = storedLanguages && selectedLanguages.length === 0;
+  $: if (selectedLanguages.length !== 0) {
+    storedLanguages = null;
+  }
 </script>
 
 {#if selectedLanguages.length >= 5 || canRestore}
