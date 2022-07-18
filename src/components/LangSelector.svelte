@@ -43,9 +43,7 @@
   />
   <datalist id="languages">
     {#each sortedLanguages as language}
-      <option value={language} disabled={selectedLanguages.includes(language)}>
-        {getParents(language)}
-      </option>
+      <option value={language} disabled={selectedLanguages.includes(language)} />
     {/each}
   </datalist>
   <input type="submit" value="Add" disabled={!isValid} class="lang-add" />
